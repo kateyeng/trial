@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>K8's Webpage</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        @media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+  .homepage-container {
+    grid-template-columns: 1fr; /* Change grid layout to single column */
+  }
+  .introduction, .pic {
+    margin: 0 auto; /* Center elements on smaller screens */
+  }
+  .pic1 {
+    width: 100%; /* Scale image to full width on mobile */
+  }
+}
+        
+        header {
+            font-size: 20px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3C6255;
+        }
+        
+        h1, h2, p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 1.6;
+            color: #A6BB8D; 
+            text-align: justify;
+        }
+
+        h2 {
+            font-size: 25px;
+            line-height: 1.6;
+            color: #EAE7B1;   
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 20px;
+            line-height: 1.6;
+            color:#fffffe;
+            text-align: justify;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #fffffe;
+            text-align: justify;
+        }
+    
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            float: right;
+            gap: 4rem;
+        }
+
+        nav a {
+            float: right;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;  
+        }
+
+        .homepage-container {
+            height: auto;
+            width: 100%;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: left;
+            align-items: left;
+        }
+
+        .introduction{
+            background-color: #3C6255;
+            padding: 30px;
+        }
+
+        .pic {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pic1 {
+            border-radius: 100%;
+            width: 500px;
+            height: 500px;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #000; 
+            box-shadow: 5px 4px 2px 2px;
+        }
+
+        .skills {
+            display: flex;
+            column-gap: 20px;
+            margin-top: 30px;
+            text-align: center;
+            background-color: #61876E; 
+        }
+
+        .left-div {
+            width: 50%;
+            padding: 30px;
+            border: 1px solid #fff;
+            margin: 20px;
+            text-align: justify;
+        }
+
+        .right-div {
+            width: 50%;
+            padding: 30px;
+            border: 1px solid #fff;
+            margin: 20px;
+            text-align: justify;
+        }
+
+        .infographics {
+            text-align: center;
+            margin: 20px;
+            max-width: 400px; 
+            width: 100%;
+            height: auto;
+        }
+        
+        .social-buttons {
+            margin-top: auto;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .icon img {
+            width: 32px;
+            height: 32px;
+            margin: 5px;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #4F6F52;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <a href="IT111Blog.html">IT111 Blog</a>
+            <a href="FlexPage.html">Flex Page</a>
+        </nav>
+    </header>
+    <main>
+        <div class="homepage-container">
+            <div class="pic">
+                <img class="pic1" src="img\kate.jpeg"> 
+            </div>
+
+            <div class="introduction">
+                <br>
+                <h1> Self-Introduction</h1>
+                <p class="intro"> Hi! I am Kate Alysabelle S. Castro, 18 years old.
+                    A student at Bukidnon State University, I am currently studying Bachelor of Science in Information Technology.
+                    Moreover, I am the eldest sister and have 4 younger siblings.
+                    I have 3 pet dogs namely: Ashi, Indai, and Hugo.</p>
+                <br>
+                <br>
+                <h1> How I Envision Myself 8 Years from Now</h1>
+                <p> Eight years from now, I will have already graduated and earned my degree in Bachelor of Science in Information Technology. I can see myself as a UX designer for a tech company. My continuous learning and passion for user experience will help my career grow. 
+                    I believe that I will contribute to innovative projects, collaborate with cross-functional teams, and make a meaningful impact on the user experiences of digital products. 
+                    I will also focus on myself and develop as a person. Hopefully, I can make a lot of green bucks so that I can enroll myself in a flying school. I have always dreamed about becoming a pilot.
+                    Lastly, because I love my parents I will buy them their favorite things and their dream car. </p>
+            </div>
+        </div>   
+    
+        <div class="skills">
+            <div class="left-div">
+                <h2> SKILLS </h2>
+                <h3> 1. Driving </h3>
+                <h3> 2. Basic Life Support </h3>
+                <h3> 3. First Aid </h3>
+                <h3> 4. Knot Tying </h3>
+                <h3> 5. Team Player </h3>
+            </div>
+
+            <div class="right-div">
+                <h2> HOBBIES </h2> 
+                <h3> 1. Listening to Music </h3>
+                <h3> 2. Playing games </h3>
+                <h3> 3. Cooking </h3>
+                <h3> 4. Running </h3>
+                <h3> 5. Soil Painting </h3>
+            </div>
+        </div>
+
+        <div class="infographics">
+            <img src="img\Info 8.png" alt="Infographics">
+        </div>
+
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/katesuazo.castro">
+                 <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/>
+            </a>
+                <a href="https://www.instagram.com/kateyeng/">
+                <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+            </a>
+                <a href="https://twitter.com/k8lysz">
+                <img src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+                </a>
+        </div>
+    </main>
+
+<footer>
+    &copy; Kate Alysabelle S. Castro 2023. All rights reserved.
+</footer>
+
+</body>
+</html>
